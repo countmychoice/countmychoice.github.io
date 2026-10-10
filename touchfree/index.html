@@ -391,9 +391,11 @@ footer .mono{font-family:var(--f-mono); font-size:12.5px}
           <tr><td>접근성 서비스</td><td>지정된 버튼을 대신 클릭</td><td><span class="tag req">필수</span></td></tr>
           <tr><td>정확한 알람 예약<br><span class="mono" style="font-size:12px;color:var(--muted)">SCHEDULE_EXACT_ALARM</span></td><td>영상 종료 시점에 맞춘 전환</td><td><span class="tag opt">선택</span><br><small style="color:var(--muted)">미허용 시 근사 알람으로 동작</small></td></tr>
           <tr><td>배터리 최적화 예외</td><td>절전 기능으로 인한 서비스 중단 방지</td><td><span class="tag opt">선택</span></td></tr>
+          <tr><td>다른 앱 위에 표시<br><span class="mono" style="font-size:12px;color:var(--muted)">SYSTEM_ALERT_WINDOW</span></td><td>향후 기능을 위해 선언되어 있습니다</td><td><span class="tag opt">선택</span></td></tr>
         </tbody>
       </table>
     </div>
+    <p><strong>다른 앱 위에 표시 권한은 버전 1.0에서 사용되지 않습니다.</strong> 앱에 선언되어 있으나 이 권한을 사용하는 기능이 없으며, 화면 위에 어떤 것도 표시하지 않습니다. 실제로 사용하게 되는 경우 제10조에 따라 적용 전에 본 방침을 개정하고 앱 업데이트를 통해 고지합니다. 이 권한은 이용자가 시스템 설정에서 직접 허용해야만 부여되며, 허용하지 않아도 앱의 모든 기능이 정상 동작합니다.</p>
     <div class="callout"><b>본 앱은 인터넷 권한(<code>INTERNET</code>)을 요청하지 않습니다.</b> 따라서 어떤 정보도 외부 서버로 전송할 수 없습니다.</div>
     <p>또한 다음 권한은 요청하지 않습니다: 위치, 연락처, 카메라, 마이크, 저장소, 전화, 문자메시지.</p>
   </section>
@@ -455,7 +457,7 @@ footer .mono{font-family:var(--f-mono); font-size:12.5px}
       <dt>이메일</dt>
       <dd><span id="mail-ko">countmychoice@gmail.com</span><button class="copy" data-copy="countmychoice@gmail.com">복사</button></dd>
       <dt>앱 이름</dt>
-      <dd>터치프리 (com.touchfree.app)</dd>
+      <dd>터치프리 (kr.co.bgoon.android.touchfree)</dd>
     </dl>
   </section>
 
@@ -594,9 +596,11 @@ footer .mono{font-family:var(--f-mono); font-size:12.5px}
           <tr><td>Accessibility Service</td><td>Perform clicks on designated buttons</td><td><span class="tag req">Required</span></td></tr>
           <tr><td>Exact alarms<br><span class="mono" style="font-size:12px;color:var(--muted)">SCHEDULE_EXACT_ALARM</span></td><td>Time transitions to video endings</td><td><span class="tag opt">Optional</span><br><small style="color:var(--muted)">Falls back to inexact alarms</small></td></tr>
           <tr><td>Battery optimization exemption</td><td>Prevent the service from being terminated by power saving</td><td><span class="tag opt">Optional</span></td></tr>
+          <tr><td>Display over other apps<br><span class="mono" style="font-size:12px;color:var(--muted)">SYSTEM_ALERT_WINDOW</span></td><td>Declared for a future feature</td><td><span class="tag opt">Optional</span></td></tr>
         </tbody>
       </table>
     </div>
+    <p><strong>The display-over-other-apps permission is not used in version 1.0.</strong> It is declared in the app, but no feature relies on it and nothing is drawn over your screen. If it comes into use, this policy will be revised and announced through an app update before that happens, as described in section 10. The permission is granted only if you enable it yourself in system settings, and every feature of the app works without it.</p>
     <div class="callout"><b>TouchFree does not request the <code>INTERNET</code> permission.</b> As a result, it cannot transmit any information to external servers.</div>
     <p>The App also does not request: location, contacts, camera, microphone, storage, phone, or SMS permissions.</p>
   </section>
@@ -658,7 +662,7 @@ footer .mono{font-family:var(--f-mono); font-size:12.5px}
       <dt>Email</dt>
       <dd><span id="mail-en">countmychoice@gmail.com</span><button class="copy" data-copy="countmychoice@gmail.com">Copy</button></dd>
       <dt>Application</dt>
-      <dd>TouchFree (com.touchfree.app)</dd>
+      <dd>TouchFree (kr.co.bgoon.android.touchfree)</dd>
     </dl>
   </section>
 
